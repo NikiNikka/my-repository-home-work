@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-</head>
-<body>
-    <h1>index</h1>
-    <h2>Test</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae cum obcaecati consequuntur, quo, iure blanditiis perspiciatis, dolore corrupti ab dolorum voluptates quia enim modi quibusdam sequi. Nisi, repudiandae adipisci.</p>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашняя работа 2</title>
+  </head>
+  <body>
+    <h1>Команды при работе с терминалом</h1>
+    <h2>
+      При работе с терминалом мы использовали на занятии определенные команды.
+    </h2>
+    <div>
+      <p>
+        Команда <b>git init</b> создает новый репозиторий Git. С ее помощью
+        можно преобразовать существующий проект без управления версиями в
+        репозиторий Git или инициализировать новый пустой репозиторий.
+        Большинство остальных команд Git невозможно использовать без
+        инициализации репозитория, поэтому данная команда обычно выполняется
+        первой в рамках нового проекта. При выполнении команды git init в
+        текущем рабочем каталоге создается подкаталог .git со всеми необходимыми
+        метаданными Git для нового репозитория. Метаданные включают подкаталоги
+        для объектов, ссылок и файлов шаблонов. Кроме того, создается файл HEAD,
+        который указывает на текущий извлеченный коммит. Команда
+        <b>git add .</b> добавляет изменение из рабочего каталога в раздел
+        проиндексированных файлов. Она сообщает Git, что вы хотите включить
+        изменения в конкретном файле в следующий коммит. Однако на самом деле
+        команда git add не оказывает существенного влияния на репозиторий:
+        изменения регистрируются в нем только после выполнения команды
+        <b>git commit -m "text"</b> . Наряду с этими командами вам понадобится
+        команда <b>git status</b> , которая показывает состояние рабочего
+        каталога и раздела проиндексированных файлов.
+      </p>
+    </div>
+  </body>
 </html>
